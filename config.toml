@@ -43,7 +43,7 @@ title = "Example Site"
         [params.widgets.archives]
             limit = 5
             ### Archives page relative URL
-            path = "archives"       
+            path = "archives"
         [params.widgets.tagCloud]
             limit = 10
             
@@ -65,6 +65,12 @@ title = "Example Site"
         url = "/"
         weight = -100
         pre = "home"
+    [[menu.main]]
+        identifier = "test"
+        name = "Test"
+        url = "test"
+        weight = -90
+        pre = "test"
     [[menu.main]]
         identifier = "about-cn"
         name = "About"
