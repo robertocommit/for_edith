@@ -1,4 +1,4 @@
-baseurl = "https://example.com"
+baseurl = "https://clever-blackwell-67fe42.netlify.app/"
 googleAnalytics = "YOUR GA"
 languageCode = "en-us"
 paginate = 5
