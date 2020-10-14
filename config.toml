@@ -69,13 +69,13 @@ title = "Example Site"
         identifier = "testpage"
         name = "TestPage"
         url = "testpage"
-        weight = -80
+        weight = -90
         pre = "testpage"
     [[menu.main]]
         identifier = "about-cn"
         name = "About"
         url = "about"
-        weight = -90
+        weight = -80
         pre = "user"
     [[menu.main]]
         identifier = "archives"
