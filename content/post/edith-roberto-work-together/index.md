@@ -8,6 +8,6 @@ categories:
   - edith
 tags:
   - edith
-image: 
+image: photo-1572953362794-31a215bb5163.jpeg
 ---
 This is another test created to test the test
