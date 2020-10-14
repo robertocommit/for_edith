@@ -8,6 +8,6 @@ categories:
   - edith
 tags:
   - edith
-image: /post/edith-roberto-work-together/photo-1572953362794-31a215bb5163.jpeg
+image: 
 ---
 This is another test created to test the test
