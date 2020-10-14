@@ -66,9 +66,9 @@ title = "Example Site"
         weight = -100
         pre = "home"
     [[menu.main]]
-        identifier = "about-cn"
-        name = "About"
-        url = "about"
+        identifier = "test"
+        name = "Test"
+        url = "test"
         weight = -90
         pre = "user"
     [[menu.main]]
