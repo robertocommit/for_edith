@@ -32,9 +32,7 @@ collections:
       - {label: "Title", name: "title", widget: "string"}
       - {label: "Description", name: "description", widget: "string"}
       - {label: "Date", name: "date", widget: "datetime"}
-      - {label: "Aliases", name: "aliases", widget: "list"}
       - {label: "Author", name: "author", widget: "string"}
-      - {label: "Lastmod", name: "lastmod", widget: "datetime"}
       - {label: "Body", name: "body", widget: "markdown"}
   - name: "categories"
     label: "Categories" 
