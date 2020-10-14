@@ -64,25 +64,26 @@ title = "Example Site"
         name = "Home"
         url = "/"
         weight = -100
-        pre = "home"
     [[menu.main]]
         identifier = "test"
         name = "Test"
         url = "test"
         weight = -90
-        pre = "user"
+    [[menu.main]]
+        identifier = "work"
+        name = "Work"
+        url = "work"
+        weight = -90
     [[menu.main]]
         identifier = "about-cn"
         name = "About"
         url = "about"
         weight = -80
-        pre = "user"
     [[menu.main]]
         identifier = "archives"
         name = "Archives"
         url = "archives"
         weight = -70
-        pre = "archives"
 
 [related]
     includeNewer = true
