@@ -11,8 +11,8 @@ collections:
     label: "Post" 
     create: true
     folder: 'content/post/'
-    path: ''
-    public_folder: "/post/{{slug}}"
+    path: '{{slug}}/index'
+    public_folder: ""
     fields:
       - {label: "Author", name: "author", widget: "string"}
       - {label: "Title", name: "title", widget: "string"}
