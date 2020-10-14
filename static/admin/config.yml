@@ -1,0 +1,24 @@
+publish_mode: editorial_workflow
+backend:
+  name: git-gateway
+  branch: master
+
+media_folder: "content/uploads/"
+public_folder: "content/uploads/"
+
+collections:
+  - name: "post"
+    label: "Post" 
+    create: true
+    folder: 'content/post/'
+    path: '{{slug}}/index'
+    public_folder: "/post/{{slug}}"
+    fields:
+      - {label: "Author", name: "author", widget: "string"}
+      - {label: "Title", name: "title", widget: "string"}
+      - {label: "Date", name: "date", widget: "datetime"}
+      - {label: "Description", name: "description", widget: "string"}
+      - {label: "Categories", name: "categories", widget: "list"}
+      - {label: "Tags", name: "tags", widget: "list"}
+      - {label: "Image", name: "image", widget: "image"}
+      - {label: "Body", name: "body", widget: "markdown"}

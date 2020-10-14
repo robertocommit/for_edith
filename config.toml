@@ -4,9 +4,15 @@ languageCode = "en-us"
 paginate = 5
 title = "Example Site"
 
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
+
 [sitemap]
-    changefreq = "weekly"
-    priority = 0.5
+  changefreq = "weekly"
+  filename = "sitemap.xml"
+  priority = 0.5
 
 [permalinks]
     post = "/p/:slug/"
@@ -84,7 +90,3 @@ title = "Example Site"
     [[related.indices]]
         name = "categories"
         weight = 200
-
-[markup]
-    [markup.highlight]
-        noClasses = false
