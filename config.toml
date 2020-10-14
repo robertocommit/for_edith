@@ -66,12 +66,6 @@ title = "Example Site"
         weight = -100
         pre = "home"
     [[menu.main]]
-        identifier = "testpage"
-        name = "TestPage"
-        url = "testpage"
-        weight = -90
-        pre = "testpage"
-    [[menu.main]]
         identifier = "about-cn"
         name = "About"
         url = "about"
