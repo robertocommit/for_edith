@@ -41,7 +41,7 @@ collections:
     create: true
     folder: 'content/categories/'
     path: '{{slug}}/index'
-    public_folder: "/categories/{{slug}}"
+    public_folder: ""
     fields:
       - {label: "Title", name: "title", widget: "string"}
       - {label: "Description", name: "description", widget: "string"}
