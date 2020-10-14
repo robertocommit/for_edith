@@ -22,3 +22,17 @@ collections:
       - {label: "Tags", name: "tags", widget: "list"}
       - {label: "Image", name: "image", widget: "image"}
       - {label: "Body", name: "body", widget: "markdown"}
+  - name: "page"
+    label: "Page" 
+    create: true
+    folder: 'content/page/'
+    path: '{{slug}}/index'
+    public_folder: "/page/{{slug}}"
+    fields:
+      - {label: "Title", name: "title", widget: "string"}
+      - {label: "Description", name: "description", widget: "string"}
+      - {label: "Date", name: "date", widget: "datetime"}
+      - {label: "Aliases", name: "aliases", widget: "list"}
+      - {label: "Author", name: "author", widget: "string"}
+      - {label: "Lastmod", name: "lastmod", widget: "datetime"}
+      - {label: "Body", name: "body", widget: "markdown"}
